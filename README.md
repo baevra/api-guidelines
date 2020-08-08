@@ -31,11 +31,14 @@
 #### GET `/collection?param=value&param1=value1`  
 Возвращает коллекцию запрашиваемых ресурсов с учетом параметров запроса.
 Возвращает код состояния HTTP 200 (ОК). При отсутствии ресурсов возвращается пустая коллекция.
-*Пагинация с limit & offset:*
-`/collection/limit=25&offset=50`
-*Пагинация с курсором:*
-::WIP::
-*Сортировка:*
+
+*Пагинация с limit & offset:*  
+`/collection/limit=25&offset=50`  
+
+*Пагинация с курсором:*  
+::WIP::  
+
+*Сортировка:*  
 `collection/sort=+field&&sort=-field`
 
 #### HEAD `/collection/item`  
