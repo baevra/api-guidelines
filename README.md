@@ -33,13 +33,13 @@
 Возвращает код состояния HTTP 200 (ОК). При отсутствии ресурсов возвращается пустая коллекция.
 
 *Пагинация с limit & offset:*  
-`/collection/limit=25&offset=50`  
+`/collection?limit=25&offset=50`  
 
 *Пагинация с курсором:*  
 ::WIP::  
 
 *Сортировка:*  
-`collection/sort=+field&&sort=-field`
+`collection?sort=+field&sort=-field`
 
 #### HEAD `/collection/item`  
 Возвращает HTTP-заголовки.
